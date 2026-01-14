@@ -3763,8 +3763,8 @@ input, select, textarea {
 /* Wrapper */
 
 	#wrapper {
-		/*width: 64em;*/
-		/*max-width: calc(100% - 4em);*/
+		width: 64em;
+		max-width: calc(100% - 4em);
 		margin: 0 auto;
 	}
 
