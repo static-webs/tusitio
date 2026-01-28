@@ -2787,7 +2787,7 @@ html.no-csstransitions .home-content__main {
   overflow: hidden;
   height: 62.4rem;
   margin-top: calc((62.4rem/2) * -1);
-  background-image: url(../images/video-bg-2400.jpg);
+  background-image: url(../images/video-bg.png);
   background-repeat: no-repeat;
   background-position: center top;
   background-size: cover;
@@ -4102,3 +4102,24 @@ html.no-csstransitions .home-content__main {
 }
 
 /*# sourceMappingURL=main.css.map */
+
+/* Agregado */
+code {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+               "Liberation Mono", "Courier New", monospace;
+  background-color: #f2f2f2;
+  padding: 0.15em 0.35em;
+  border-radius: 4px;
+  font-size: 0.95em;
+  color: #333;
+}
+
+.desktop-only {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .desktop-only {
+    display: inline;
+  }
+}
