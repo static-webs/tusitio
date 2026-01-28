@@ -3284,9 +3284,6 @@ html.no-csstransitions .home-content__main {
  * # testimonials
  *
  * ------------------------------------------------------------------- */
-.testimonials-wrap {
-  margin-top: 9.6rem;
-}
 
 .testimonials-header {
   text-align: center;
@@ -3596,7 +3593,7 @@ html.no-csstransitions .home-content__main {
  * ------------------------------------------------------------------- */
 .s-download {
   padding-top: 18.4rem;
-  background-color: #5b4f96;
+  background-color: #121619;
   color: rgba(255, 255, 255, 0.8);
   overflow: hidden;
   position: relative;
@@ -3624,18 +3621,22 @@ html.no-csstransitions .home-content__main {
 
 .s-download .download-badges li a {
   display: block;
-  width: 232px;
-  height: 72px;
+  width: 240px;
+  height: 66px;
   font: 0/0 a;
   text-shadow: none;
   color: transparent;
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 232px 72px;
+  background-size: 240px 66px;
 }
 
 .s-download .download-badges li a.badge-appstore {
   background-image: url("../images/appstore.png");
+}
+
+.s-download .download-badges li a.badge-whatsapp {
+  background-image: url("../images/whatsapp.png");
 }
 
 .s-download .download-badges li a.badge-googleplay {
@@ -3708,6 +3709,7 @@ html.no-csstransitions .home-content__main {
  *
  * ------------------------------------------------------------------- */
 .s-footer {
+  background-color: #0e1113;
   padding-top: 18.4rem;
   padding-bottom: 4.8rem;
   color: rgba(255, 255, 255, 0.4);
